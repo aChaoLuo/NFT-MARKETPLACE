@@ -14,8 +14,8 @@
     <name>nft-market-backend</name>
     <description>nft-market-backend</description>
     <properties>
-        <java.version>8</java.version>
-        <target>8</target>
+        <java.version>1.8</java.version>
+        <target>1.8</target>
     </properties>
     <dependencies>
         <dependency>
