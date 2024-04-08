@@ -5,7 +5,6 @@ import { mainnet, sepolia, polygonMumbai, polygon, goerli } from "wagmi/chains";
 import { publicProvider } from "wagmi/providers/public";
 import "@rainbow-me/rainbowkit/styles.css";
 import "../styles/globals.css";
-import { infuraProvider } from "@wagmi/core/providers/infura";
 import Header from "@/components/Header";
 import Head from "next/head";
 //@ts-ignore
@@ -39,7 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <div>
       <Head>
         <title>NFT Market</title>
-        <meta name="description" content="NFT Market"></meta>
+        <meta name="description" content="NFT Market" http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
         <link rel="icon" href="./favicon.ico"></link>
       </Head>
       <WagmiConfig config={config}>
