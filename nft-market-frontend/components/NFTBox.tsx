@@ -81,11 +81,11 @@ export default function NFTBox({
   //     position: "topR",
   //   });
   // };
-  // useEffect(() => {
-  //   if (isConnected) {
-  //     updateUI();
-  //   }
-  // }, [isConnected]);
+  useEffect(() => {
+    if (isConnected) {
+      updateUI();
+    }
+  }, [isConnected]);
 
   const {
     data,
