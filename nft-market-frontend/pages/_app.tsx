@@ -38,7 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <div>
       <Head>
         <title>NFT Market</title>
-        <meta name="description" content="NFT Market" http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+        <meta name="description" content="NFT Market" httpEquiv="Content-Security-Policy"></meta>
         <link rel="icon" href="./favicon.ico"></link>
       </Head>
       <WagmiConfig config={config}>
